@@ -1,0 +1,7 @@
+<h2>{{category.title}}</h2>
+<div *ngFor="let post of category.posts" (click)="clickPost(post)">
+  <p>{{post.title}}</p>
+  <div>
+    <p [class]="showPost(post)">{{post.text}}</p>
+  </div>
+</div>
