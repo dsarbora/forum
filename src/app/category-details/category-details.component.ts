@@ -40,4 +40,8 @@ export class CategoryDetailsComponent implements OnInit {
       return "hidden";
     }
   }
+
+  addNewPost(post: Post){
+    this.category.posts.push(post);
+  }
 }

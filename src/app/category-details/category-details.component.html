@@ -1,4 +1,5 @@
 <h2>{{category.title}}</h2>
+<app-add-post (newPostButtonClicked)="addNewPost($event)"></app-add-post>
 <div *ngFor="let post of category.posts" (click)="clickPost(post)">
   <p>{{post.title}}</p>
   <div>

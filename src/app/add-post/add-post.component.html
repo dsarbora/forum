@@ -1,3 +1,11 @@
-<p>
-  add-post works!
-</p>
+<div *ngIf="!newPost">
+  <button (click)="showForm()">Add Post</button>
+</div>
+<div *ngIf="newPost">
+  <label for="title">Title: </label>
+  <input #title id="title" type="text">
+  <label for="text">Text: </label>
+  <input #text id="text" name="text" type="text">
+  <button (click)="addNewPost(title.value, text.value); title.value=''; text.value='';">Post</button>
+  <button (click)="showForm()">Cancel</button>
+</div>
