@@ -1,4 +1,25 @@
-# Reddit
+# Reddit Clone
+
+#### _A web application to practice routing with Angular_
+#### By _**Dave Sarbora and Yulia Shidlovskaya**_
+## Description
+The intent of this project is to create a forum where users create, edit, and delete posts, as well as add basic positive or negative feedback to existing posts
+
+## Specifications
+
+## Setup/Installation Requirements
+
+* Download and install Node.js
+* Clone this repository: $ git clone _______
+* Change into the work directory: $ cd _______
+* Run the command $ npm install
+* Run the command $ npm run build
+* Run the command $ npm run start
+
+## Support and Contact Details
+_If you run into any issues or have questions, ideas or concerns. Please email us at dsarbora@gmail.com or sjullieb@gmail.com_
+
+## Technologies Used
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -25,3 +46,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### License
+
+*MIT*
+
+Copyright (c) 2019 **_Dave Sarbora and Yulia Shidlovskaya_**
